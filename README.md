@@ -6,7 +6,7 @@
 
 ***
 
-## Example:
+### Example:
 
 ```js
 import Dealer from './dealer.js';
@@ -38,32 +38,32 @@ await dealer.deal({ hostname:'0.0.0.0', port:8080 });
 
 ***
 
-## Usage "guidelines":
+### Usage "guidelines":
 
 <br>
 
-### The usage is pretty straightforward and it's really only what's in the example. The parameter given to `dealer.deal()` is the same you would give to Deno's `serve()`.
+The usage is pretty straightforward and it's really only what's in the example. The parameter given to `dealer.deal()` is the same you would give to Deno's `serve()`.
 
-### If the required parameters are not given or if the type conversion specified cannot be performed or some other things goes wrong, the *dealer* will send a reply to the client saying so.
+If the required parameters are not given or if the type conversion specified cannot be performed or some other things goes wrong, the *dealer* will send a reply to the client saying so.
 
-### But really, if you have any doubts check the code. It's pretty easy to understand because it's not like I have the knowledge to not make it that way anyway.
+But really, if you have any doubts check the code. It's pretty easy to understand because it's not like I have the knowledge to not make it that way anyway.
 
 <br>
 
 ***
 
-## Disclaimer:
+### Disclaimer:
 
-### This is most likely not bulletproof, it's just a lightweight utility that works fine. If you want it to work great you'll need to look somewhere else, locally change it or contribute to it here (thank you!).
-
-<br>
-
-## "Licence":
-
-### Use it how, when and where you want it!
+This is most likely not bulletproof, it's just a lightweight utility that works fine. If you want it to work great you'll need to look somewhere else, locally change it or contribute to it here (thank you!).
 
 <br>
 
-## Hope it help
+### "Licence":
 
-### And if it does, do let me know :)
+Use it how, when and where you want it!
+
+<br>
+
+### Hope it help
+
+And if it does, do let me know :)
