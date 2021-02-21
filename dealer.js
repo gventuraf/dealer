@@ -111,7 +111,7 @@ export default class Dealer
 
             try {
                 
-                resp = endpoint.controller({ query: _query, payload: _payload });
+                resp = await endpoint.controller({ query: _query, payload: _payload });
             
             } catch (err) {
 
